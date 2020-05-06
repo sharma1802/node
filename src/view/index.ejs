@@ -1,0 +1,22 @@
+<html>
+
+    <head>
+        <link href="/css/index.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Welcome <%=name%> to robin batch </h1>
+        <ul class="list-style">
+            <% for(let i=0; i < list.length;i++){%>
+            <li>
+                <%=list[i] * 3 %>
+            </li>
+            <%}%>
+        </ul>
+        <img src="/img/1920.jpg" alt="random image" />
+    </body>
+</html>
+
+
+
+

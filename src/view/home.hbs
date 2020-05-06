@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <h1 class="main-heading">Welcome {{ name }} to robin</h1>
+        <ul>
+            {{#each list}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+
+        {{#if inClass}}
+        <h1>Hey i am in class</h1>
+        {{else}}
+        <h3>I am absent today</h3>
+        {{/if}}
+    </body>
+</html>
